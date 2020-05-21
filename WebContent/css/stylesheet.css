@@ -1,0 +1,68 @@
+/* This file extends Bootstrap css */
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+body {
+  background: lightblue url('../img/boat2.jpg') no-repeat fixed center;
+  background-size: cover;
+  color: white;
+}
+
+#venelista {
+	color: white;
+	border-radius: 10px;
+	background: rgba(1, 13, 39, 0.6);
+}
+
+.lastrow {
+	width: 100px;
+}
+
+#venelista th {
+	border: 0px;
+}
+#venelista .lastrow {
+	width: 180px;
+}
+
+#venelista td {
+	border: 0px;
+}
+.navbar {
+    padding: .8rem;
+}
+
+.navbar img {
+    height:60px;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.spacer50 {
+	height: 50px;
+}
+
+.spacer20 {
+	height: 20px;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width:75%;
+    margin-top: .8rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
